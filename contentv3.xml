@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="División Celular"></unicode>
+  <unicode value="La mitosis"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -11,15 +11,34 @@
   <string role="key" value="_addSearchBox"></string>
   <bool value="0"></bool>
   <string role="key" value="_author"></string>
-  <unicode value="Lady Ruiz"></unicode>
+  <unicode value="Lady Isabel Ruiz Gonzalez"></unicode>
   <string role="key" value="_backgroundImg"></string>
-  <unicode value=""></unicode>
+  <instance class="exe.engine.resource.Resource" reference="115">
+   <dictionary>
+    <string role="key" value="_idevice"></string>
+    <none></none>
+    <string role="key" value="_package"></string>
+    <reference key="1"></reference>
+    <string role="key" value="_storageName"></string>
+    <string value="portada idy.jpg"></string>
+    <string role="key" value="_userName"></string>
+    <string value="C:\\Users\\jonathan\\Pictures\\portada idy.jpg"></string>
+    <string role="key" value="checksum"></string>
+    <string value="4d58176bab5147d2ba26a30cb20f1b27"></string>
+    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="warningMsg"></string>
+    <string value=""></string>
+   </dictionary>
+  </instance>
   <string role="key" value="_contextMode"></string>
-  <unicode value="presencial"></unicode>
+  <unicode value="distance"></unicode>
   <string role="key" value="_contextPlace"></string>
   <unicode value="classroom"></unicode>
   <string role="key" value="_description"></string>
-  <unicode value="Este recurso educativo ayudará a comprender el tema de la mitosis la cual consiste en la división de la célula, es decir se da una repartición entre las dos células hijas del material que se encuentra en el núcleo de la célula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase."></unicode>
+  <unicode value="Este recurso educativo ayudará a comprender el tema de la mitosis la cual consiste en la división de la célula es decir se da una repartición entre las dos células hijas del material que se encuentra en el núcleo de la célula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase. Este recurso presenta actividades de verdadero o falso, imágenes, crucigramas, videos, entre otros para que los estudiantes comprendan los cambios que se dan en cada fase ."></unicode>
   <string role="key" value="_docType"></string>
   <unicode value="HTML5"></unicode>
   <string role="key" value="_exportElp"></string>
@@ -65,7 +84,7 @@
   <string role="key" value="_intendedEndUserRoleGroup"></string>
   <bool value="0"></bool>
   <string role="key" value="_intendedEndUserRoleTutor"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
@@ -83,7 +102,7 @@
    <unicode value="Unidad"></unicode>
   </list>
   <string role="key" value="_name"></string>
-  <unicode value="ELP"></unicode>
+  <unicode value="Proyecto_educativo_IDY"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
   <int value="69"></int>
   <string role="key" value="_nextNodeId"></string>
@@ -97,7 +116,7 @@
      <unicode value="Bienvenidos"></unicode>
      <string role="key" value="idevices"></string>
      <list>
-      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="2">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value=""></unicode>
@@ -161,7 +180,7 @@
            <string role="key" value="_id"></string>
            <unicode value="112_2"></unicode>
            <string role="key" value="_idevice"></string>
-           <reference key="1"></reference>
+           <reference key="2"></reference>
            <string role="key" value="_instruc"></string>
            <string value=""></string>
            <string role="key" value="_name"></string>
@@ -169,7 +188,7 @@
            <string role="key" value="anchor_names"></string>
            <list></list>
            <string role="key" value="content_w_resourcePaths"></string>
-           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: left;&quot;&gt;                                          &lt;img src=&quot;resources/unl.png&quot; alt=&quot;&quot; width=&quot;304&quot; height=&quot;113&quot; /&gt;&lt;img src=&quot;resources/facultad.png&quot; alt=&quot;&quot; width=&quot;238&quot; height=&quot;127&quot; /&gt;     &lt;img src=&quot;resources/carrera_infor.png&quot; alt=&quot;&quot; width=&quot;488&quot; height=&quot;137&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+           <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: left;&quot;&gt;     &lt;img src=&quot;resources/unl.png&quot; alt=&quot;&quot; width=&quot;239&quot; height=&quot;89&quot; /&gt;&lt;img src=&quot;resources/facultad.png&quot; alt=&quot;&quot; width=&quot;167&quot; height=&quot;89&quot; /&gt;     &lt;img src=&quot;resources/carrera_infor.png&quot; alt=&quot;&quot; width=&quot;342&quot; height=&quot;96&quot; /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -208,9 +227,9 @@
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="unl.png"></string>
                   <string role="key" value="_userName"></string>
@@ -260,9 +279,9 @@
                 <instance class="exe.engine.resource.Resource" reference="6">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="facultad.png"></string>
                   <string role="key" value="_userName"></string>
@@ -312,9 +331,9 @@
                 <instance class="exe.engine.resource.Resource" reference="7">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="carrera_infor.png"></string>
                   <string role="key" value="_userName"></string>
@@ -1016,7 +1035,7 @@
                   <string role="key" value="_idevice"></string>
                   <reference key="16"></reference>
                   <string role="key" value="_package"></string>
-                  <reference key="2"></reference>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="boton_mitosis.png"></string>
                   <string role="key" value="_userName"></string>
@@ -1170,7 +1189,7 @@
                            <string role="key" value="_idevice"></string>
                            <reference key="18"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="fases-de-mitosis-social.jpg"></string>
                            <string role="key" value="_userName"></string>
@@ -1476,7 +1495,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
                            <string role="key" value="_idevice"></string>
                            <reference key="24"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="boton_inicio.png"></string>
                            <string role="key" value="_userName"></string>
@@ -1528,7 +1547,7 @@ var InteractiveVideo = {&quot;slides&quot;:[{&quot;type&quot;:&quot;singleChoice
                            <string role="key" value="_idevice"></string>
                            <reference key="24"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="boton_profase.png"></string>
                            <string role="key" value="_userName"></string>
@@ -2486,7 +2505,7 @@ for the other options."></unicode>
                                     <string role="key" value="_idevice"></string>
                                     <reference key="41"></reference>
                                     <string role="key" value="_package"></string>
-                                    <reference key="2"></reference>
+                                    <reference key="1"></reference>
                                     <string role="key" value="_storageName"></string>
                                     <string value="boton_metafase.png"></string>
                                     <string role="key" value="_userName"></string>
@@ -2538,7 +2557,7 @@ for the other options."></unicode>
                                     <string role="key" value="_idevice"></string>
                                     <reference key="41"></reference>
                                     <string role="key" value="_package"></string>
-                                    <reference key="2"></reference>
+                                    <reference key="1"></reference>
                                     <string role="key" value="_storageName"></string>
                                     <string value="boton_mitosis.png"></string>
                                     <string role="key" value="_userName"></string>
@@ -3072,7 +3091,7 @@ for the other options."></unicode>
                                              <string role="key" value="_idevice"></string>
                                              <reference key="50"></reference>
                                              <string role="key" value="_package"></string>
-                                             <reference key="2"></reference>
+                                             <reference key="1"></reference>
                                              <string role="key" value="_storageName"></string>
                                              <string value="boton_anafase.png"></string>
                                              <string role="key" value="_userName"></string>
@@ -3124,7 +3143,7 @@ for the other options."></unicode>
                                              <string role="key" value="_idevice"></string>
                                              <reference key="50"></reference>
                                              <string role="key" value="_package"></string>
-                                             <reference key="2"></reference>
+                                             <reference key="1"></reference>
                                              <string role="key" value="_storageName"></string>
                                              <string value="boton_profase.1.png"></string>
                                              <string role="key" value="_userName"></string>
@@ -3880,7 +3899,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                                                       <string role="key" value="_idevice"></string>
                                                       <reference key="63"></reference>
                                                       <string role="key" value="_package"></string>
-                                                      <reference key="2"></reference>
+                                                      <reference key="1"></reference>
                                                       <string role="key" value="_storageName"></string>
                                                       <string value="boton_metafase.png"></string>
                                                       <string role="key" value="_userName"></string>
@@ -3932,7 +3951,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                                                       <string role="key" value="_idevice"></string>
                                                       <reference key="63"></reference>
                                                       <string role="key" value="_package"></string>
-                                                      <reference key="2"></reference>
+                                                      <reference key="1"></reference>
                                                       <string role="key" value="_storageName"></string>
                                                       <string value="boton_telofase.png"></string>
                                                       <string role="key" value="_userName"></string>
@@ -4984,7 +5003,7 @@ estudiante a responder la pregunta."></unicode>
                                                                <string role="key" value="_idevice"></string>
                                                                <reference key="84"></reference>
                                                                <string role="key" value="_package"></string>
-                                                               <reference key="2"></reference>
+                                                               <reference key="1"></reference>
                                                                <string role="key" value="_storageName"></string>
                                                                <string value="boton_anafase.png"></string>
                                                                <string role="key" value="_userName"></string>
@@ -5036,7 +5055,7 @@ estudiante a responder la pregunta."></unicode>
                                                                <string role="key" value="_idevice"></string>
                                                                <reference key="84"></reference>
                                                                <string role="key" value="_package"></string>
-                                                               <reference key="2"></reference>
+                                                               <reference key="1"></reference>
                                                                <string role="key" value="_storageName"></string>
                                                                <string value="boton_inicio.png"></string>
                                                                <string role="key" value="_userName"></string>
@@ -5111,7 +5130,7 @@ estudiante a responder la pregunta."></unicode>
                                                   <string role="key" value="_id"></string>
                                                   <unicode value="5"></unicode>
                                                   <string role="key" value="_package"></string>
-                                                  <reference key="2"></reference>
+                                                  <reference key="1"></reference>
                                                   <string role="key" value="anchor_fields"></string>
                                                   <list></list>
                                                   <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5169,7 +5188,7 @@ estudiante a responder la pregunta."></unicode>
                                          <string role="key" value="_id"></string>
                                          <unicode value="4"></unicode>
                                          <string role="key" value="_package"></string>
-                                         <reference key="2"></reference>
+                                         <reference key="1"></reference>
                                          <string role="key" value="anchor_fields"></string>
                                          <list></list>
                                          <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5230,7 +5249,7 @@ estudiante a responder la pregunta."></unicode>
                                 <string role="key" value="_id"></string>
                                 <unicode value="3"></unicode>
                                 <string role="key" value="_package"></string>
-                                <reference key="2"></reference>
+                                <reference key="1"></reference>
                                 <string role="key" value="anchor_fields"></string>
                                 <list></list>
                                 <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5289,7 +5308,7 @@ estudiante a responder la pregunta."></unicode>
                        <string role="key" value="_id"></string>
                        <unicode value="2"></unicode>
                        <string role="key" value="_package"></string>
-                       <reference key="2"></reference>
+                       <reference key="1"></reference>
                        <string role="key" value="anchor_fields"></string>
                        <list></list>
                        <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5349,7 +5368,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="_id"></string>
               <unicode value="1"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="2"></reference>
+              <reference key="1"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5684,7 +5703,7 @@ estudiante a responder la pregunta."></unicode>
                  <string role="key" value="_id"></string>
                  <unicode value="9"></unicode>
                  <string role="key" value="_package"></string>
-                 <reference key="2"></reference>
+                 <reference key="1"></reference>
                  <string role="key" value="anchor_fields"></string>
                  <list></list>
                  <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -5823,7 +5842,7 @@ estudiante a responder la pregunta."></unicode>
                               <string role="key" value="_idevice"></string>
                               <reference key="101"></reference>
                               <string role="key" value="_package"></string>
-                              <reference key="2"></reference>
+                              <reference key="1"></reference>
                               <string role="key" value="_storageName"></string>
                               <string value="lady_ruiz.jpg"></string>
                               <string role="key" value="_userName"></string>
@@ -5892,7 +5911,7 @@ estudiante a responder la pregunta."></unicode>
                  <string role="key" value="_id"></string>
                  <unicode value="13"></unicode>
                  <string role="key" value="_package"></string>
-                 <reference key="2"></reference>
+                 <reference key="1"></reference>
                  <string role="key" value="anchor_fields"></string>
                  <list></list>
                  <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -6056,7 +6075,7 @@ estudiante a responder la pregunta."></unicode>
                  <string role="key" value="_id"></string>
                  <unicode value="8"></unicode>
                  <string role="key" value="_package"></string>
-                 <reference key="2"></reference>
+                 <reference key="1"></reference>
                  <string role="key" value="anchor_fields"></string>
                  <list></list>
                  <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -6116,7 +6135,7 @@ estudiante a responder la pregunta."></unicode>
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="2"></reference>
+     <reference key="1"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -6156,9 +6175,15 @@ estudiante a responder la pregunta."></unicode>
    <reference key="98"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
-  <unicode value=""></unicode>
+  <unicode value="Objetivo: 
+O.CN.4.1. Describir los tipos y características de las células, el ciclo celular, los mecanismos de reproducción celular y la constitución de los tejidos, que permiten comprender la compleja estructura y los niveles de organización de la materia viva
+Objetivo del recurso:
+Comprender e identificar los cambios que se dan en las fases del ciclo celular de la mitosis: Profase, Metafase, Anafase y Telofase"></unicode>
   <string role="key" value="_preknowledge"></string>
-  <unicode value=""></unicode>
+  <unicode value="● La interfase celular
+● La división celular
+● Estructura del ADN
+● La dotación cromosómica"></unicode>
   <string role="key" value="_templateFile"></string>
   <string value="Base"></string>
   <string role="key" value="anchor_nodes"></string>
@@ -6171,7 +6196,7 @@ estudiante a responder la pregunta."></unicode>
    <reference key="67"></reference>
   </list>
   <string role="key" value="backgroundImgTile"></string>
-  <bool value="0"></bool>
+  <bool value="1"></bool>
   <string role="key" value="currentNode"></string>
   <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
@@ -6182,11 +6207,11 @@ estudiante a responder la pregunta."></unicode>
     <string role="key" value="coverage"></string>
     <unicode value=""></unicode>
     <string role="key" value="creator"></string>
-    <unicode value="Lady Ruiz"></unicode>
+    <unicode value="Lady Isabel Ruiz Gonzalez"></unicode>
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
-    <unicode value="Este recurso educativo ayudará a comprender el tema de la mitosis la cual consiste en la división de la célula, es decir se da una repartición entre las dos células hijas del material que se encuentra en el núcleo de la célula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase."></unicode>
+    <unicode value="Este recurso educativo ayudará a comprender el tema de la mitosis la cual consiste en la división de la célula es decir se da una repartición entre las dos células hijas del material que se encuentra en el núcleo de la célula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase. Este recurso presenta actividades de verdadero o falso, imágenes, crucigramas, videos, entre otros para que los estudiantes comprendan los cambios que se dan en cada fase ."></unicode>
     <string role="key" value="format"></string>
     <unicode value=""></unicode>
     <string role="key" value="identifier"></string>
@@ -6198,13 +6223,13 @@ estudiante a responder la pregunta."></unicode>
     <string role="key" value="relation"></string>
     <unicode value=""></unicode>
     <string role="key" value="rights"></string>
-    <unicode value="creative commons: attribution 4.0"></unicode>
+    <unicode value="creative commons: attribution - share alike 4.0"></unicode>
     <string role="key" value="source"></string>
     <unicode value=""></unicode>
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="División Celular"></unicode>
+    <unicode value="La mitosis"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -6220,7 +6245,7 @@ estudiante a responder la pregunta."></unicode>
   <string role="key" value="isLoading"></string>
   <bool value="0"></bool>
   <string role="key" value="license"></string>
-  <unicode value="creative commons: attribution 4.0"></unicode>
+  <unicode value="creative commons: attribution - share alike 4.0"></unicode>
   <string role="key" value="lom"></string>
   <instance class="exe.engine.lom.lomsubs.lomSub">
    <dictionary>
@@ -6310,7 +6335,48 @@ estudiante a responder la pregunta."></unicode>
         </instance>
        </list>
        <string role="key" value="description"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="CONOCIMIENTO PREVIO: ● La interfase celular
+● La división celular
+● Estructura del ADN
+● La dotación cromosómica"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: Objetivo: 
+O.CN.4.1. Describir los tipos y características de las células, el ciclo celular, los mecanismos de reproducción celular y la constitución de los tejidos, que permiten comprender la compleja estructura y los niveles de organización de la materia viva
+Objetivo del recurso:
+Comprender e identificar los cambios que se dan en las fases del ciclo celular de la mitosis: Profase, Metafase, Anafase y Telofase"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
@@ -6345,6 +6411,40 @@ estudiante a responder la pregunta."></unicode>
             <none></none>
             <string role="key" value="valueOf_"></string>
             <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="tutor"></string>
            </dictionary>
           </instance>
          </dictionary>
@@ -6431,7 +6531,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Este recurso educativo ayudar\xc3\xa1 a comprender el tema de la mitosis la cual consiste en la divisi\xc3\xb3n de la c\xc3\xa9lula, es decir se da una repartici\xc3\xb3n entre las dos c\xc3\xa9lulas hijas del material que se encuentra en el n\xc3\xbacleo de la c\xc3\xa9lula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase."></string>
+            <string value="Este recurso educativo ayudar\xc3\xa1 a comprender el tema de la mitosis la cual consiste en la divisi\xc3\xb3n de la c\xc3\xa9lula es decir se da una repartici\xc3\xb3n entre las dos c\xc3\xa9lulas hijas del material que se encuentra en el n\xc3\xbacleo de la c\xc3\xa9lula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase. Este recurso presenta actividades de verdadero o falso, im\xc3\xa1genes, crucigramas, videos, entre otros para que los estudiantes comprendan los cambios que se dan en cada fase ."></string>
            </dictionary>
           </instance>
          </list>
@@ -6490,7 +6590,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Divisi\xc3\xb3n Celular"></string>
+           <string value="La mitosis"></string>
           </dictionary>
          </instance>
         </list>
@@ -6554,7 +6654,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Ruiz EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Isabel Ruiz Gonzalez EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -6626,6 +6726,96 @@ estudiante a responder la pregunta."></unicode>
            <none></none>
            <string role="key" value="source"></string>
            <reference key="111"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2022-08-10T11:04:10.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Isabel Ruiz Gonzalez EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -6776,7 +6966,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="value"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="presencial"></string>
+            <string value="distance"></string>
            </dictionary>
           </instance>
          </dictionary>
@@ -6817,7 +7007,48 @@ estudiante a responder la pregunta."></unicode>
         </instance>
        </list>
        <string role="key" value="description"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="CONOCIMIENTO PREVIO: ● La interfase celular
+● La división celular
+● Estructura del ADN
+● La dotación cromosómica"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: Objetivo: 
+O.CN.4.1. Describir los tipos y características de las células, el ciclo celular, los mecanismos de reproducción celular y la constitución de los tejidos, que permiten comprender la compleja estructura y los niveles de organización de la materia viva
+Objetivo del recurso:
+Comprender e identificar los cambios que se dan en las fases del ciclo celular de la mitosis: Profase, Metafase, Anafase y Telofase"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
@@ -6852,6 +7083,40 @@ estudiante a responder la pregunta."></unicode>
             <none></none>
             <string role="key" value="valueOf_"></string>
             <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="tutor"></string>
            </dictionary>
           </instance>
          </dictionary>
@@ -6938,7 +7203,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="Este recurso educativo ayudar\xc3\xa1 a comprender el tema de la mitosis la cual consiste en la divisi\xc3\xb3n de la c\xc3\xa9lula, es decir se da una repartici\xc3\xb3n entre las dos c\xc3\xa9lulas hijas del material que se encuentra en el n\xc3\xbacleo de la c\xc3\xa9lula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase."></string>
+            <string value="Este recurso educativo ayudar\xc3\xa1 a comprender el tema de la mitosis la cual consiste en la divisi\xc3\xb3n de la c\xc3\xa9lula es decir se da una repartici\xc3\xb3n entre las dos c\xc3\xa9lulas hijas del material que se encuentra en el n\xc3\xbacleo de la c\xc3\xa9lula madre pasando por varias etapas como son Profase, Metafase, Anafase y Telofase. Este recurso presenta actividades de verdadero o falso, im\xc3\xa1genes, crucigramas, videos, entre otros para que los estudiantes comprendan los cambios que se dan en cada fase ."></string>
            </dictionary>
           </instance>
          </list>
@@ -6997,7 +7262,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="Divisi\xc3\xb3n Celular"></string>
+           <string value="La mitosis"></string>
           </dictionary>
          </instance>
         </list>
@@ -7061,7 +7326,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Ruiz EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Isabel Ruiz Gonzalez EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -7133,6 +7398,96 @@ estudiante a responder la pregunta."></unicode>
            <none></none>
            <string role="key" value="source"></string>
            <reference key="114"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2022-08-10T11:04:10.00-05:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Lady Isabel Ruiz Gonzalez EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -7278,7 +7633,7 @@ estudiante a responder la pregunta."></unicode>
           <string role="key" value="value"></string>
           <none></none>
           <string role="key" value="valueOf_"></string>
-          <string value="creative commons: attribution"></string>
+          <string value="creative commons: attribution - share alike"></string>
          </dictionary>
         </instance>
        </dictionary>
@@ -7319,6 +7674,10 @@ estudiante a responder la pregunta."></unicode>
    <string role="key" value="4616e09c916b51695033b6e0548d4adf"></string>
    <list>
     <reference key="95"></reference>
+   </list>
+   <string role="key" value="4d58176bab5147d2ba26a30cb20f1b27"></string>
+   <list>
+    <reference key="115"></reference>
    </list>
    <string role="key" value="78d9204941e5438c648d8a9185c36edf"></string>
    <list>
